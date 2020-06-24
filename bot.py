@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 import asyncio
 
-TOKEN = "NzI0MzgzMTY3Njk1MjkwNDE5.Xu_aYA.ccYkaKOkBBQY4W6zN3Upx5Yd5-I"
+TOKEN = "NzI1NDAwNjY4ODY0NTEyMTMw.XvOMIA.mBS8QG7RiamURFMxoKdmmRoPg3c"
 client = commands.Bot(command_prefix=commands.when_mentioned_or(""), case_insensitive=True)
 client.remove_command('help')
 client = commands.Bot(command_prefix = '!r')
